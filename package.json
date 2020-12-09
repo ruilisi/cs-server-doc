@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/umijs/dumi.git"
+    "url": "git+https://github.com/ruilisi/cs-server-doc.git"
   },
   "devDependencies": {
     "@babel/plugin-proposal-optional-chaining": "^7.6.0",

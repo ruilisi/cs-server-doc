@@ -11,50 +11,53 @@ export default {
         children: ['guide/index', 'guide/getting-started'],
       },
       {
-        title: '写组件 Demo',
-        children: ['guide/demo-principle', 'guide/demo-types', 'guide/control-demo-render'],
-      },
-      {
-        title: '控制菜单和路由生成',
+        title: '管理员工作台',
         children: [
-          'guide/control-route-generate',
-          'guide/control-menu-generate',
-          'guide/control-nav-generate',
+          'guide/manager-dashboard',
+          'guide/manager-develop',
+          'guide/manager-agent',
+          'guide/manager-statistic',
+          'guide/manager-usage',
+          'guide/manager-price',
+          'guide/manager-templates',
         ],
       },
       {
-        title: '更多用法',
-        children: ['guide/mode', 'guide/multi-language', 'guide/seo'],
+        title: '客服工作台',
+        children: [
+          
+        ],
+      },
+      {
+        title: '开发指南',
+        children: [],
       },
       {
         title: '其他',
-        children: ['guide/migration', 'guide/faq'],
+        children: [],
       },
     ],
     '/guide': [
       {
         title: 'Introducation',
-        children: ['guide/index', 'guide/getting-started'],
+        children: [],
       },
       {
         title: 'How to write a demo',
-        children: ['guide/demo-principle', 'guide/demo-types', 'guide/control-demo-render'],
+        children: [],
       },
       {
         title: 'Control and generate',
         children: [
-          'guide/control-route-generate',
-          'guide/control-menu-generate',
-          'guide/control-nav-generate',
         ],
       },
       {
         title: 'More usage',
-        children: ['guide/mode', 'guide/multi-language', 'guide/seo'],
+        children: [],
       },
       {
         title: 'Others',
-        children: ['guide/migration', 'guide/faq'],
+        children: [],
       },
     ],
   },

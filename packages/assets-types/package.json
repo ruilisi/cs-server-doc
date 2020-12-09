@@ -8,11 +8,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/umijs/dumi",
+    "url": "https://github.com/ruilisi/cs-server-doc",
     "directory": "dumi"
   },
-  "homepage": "http://github.com/umijs/dumi",
-  "bugs": "http://github.com/umijs/dumi/issues",
+  "homepage": "https://github.com/ruilisi/cs-server-doc",
+  "bugs": "https://github.com/ruilisi/cs-server-doc/issues",
   "authors": [
     "PeachScript <scdzwyxst@gmail.com> (https://github.com/PeachScript)"
   ],

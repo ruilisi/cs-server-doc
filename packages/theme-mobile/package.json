@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/umijs/dumi"
+    "url": "https://github.com/ruilisi/cs-server-doc"
   },
   "keywords": [
     "dumi",
@@ -22,7 +22,7 @@
     "xiaohuoni <448627663@qq.com> (https://github.com/xiaohuoni)"
   ],
   "license": "MIT",
-  "bugs": "http://github.com/umijs/dumi/issues",
+  "bugs": "https://github.com/ruilisi/cs-server-doc/issues",
   "homepage": "https://github.com/umijs/dumi/tree/master/packages/theme-mobile#readme",
   "publishConfig": {
     "access": "public"

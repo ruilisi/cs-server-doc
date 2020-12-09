@@ -11,11 +11,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/umijs/dumi",
+    "url": "https://github.com/ruilisi/cs-server-doc",
     "directory": "dumi-theme-default"
   },
-  "homepage": "http://github.com/umijs/dumi",
-  "bugs": "http://github.com/umijs/dumi/issues",
+  "homepage": "https://github.com/ruilisi/cs-server-doc",
+  "bugs": "https://github.com/ruilisi/cs-server-doc/issues",
   "authors": [],
   "dependencies": {
     "prism-react-renderer": "^1.1.1",
