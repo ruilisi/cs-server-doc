@@ -1,9 +1,9 @@
 ---
-title: dumi - 基于 Umi、为组件开发场景而生的文档工具
+title: Ruilis文档 - 技术·分享·服务
 order: 10
 hero:
-  title: dumi
-  desc: 基于 Umi、为组件开发场景而生的文档工具
+  title: Ruilis文档
+  desc: 技术·分享·服务
   actions:
     - text: 快速上手
       link: /zh-CN/guide/getting-started

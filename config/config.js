@@ -1,7 +1,7 @@
 export default {
   ssr: {},
   hash: true,
-  title: 'dumi',
+  title: 'chatIM',
   mode: 'site',
   favicon: 'https://img.alicdn.com/tfs/TB1YHEpwUT1gK0jSZFhXXaAtVXa-28-27.svg',
   menus: {
@@ -25,12 +25,21 @@ export default {
       {
         title: '客服工作台',
         children: [
-          
+          'guide/agent-dashboard',
+          'guide/agent-chat',
+          'guide/agent-history',
+          'guide/agent-statistic',
+          'guide/agent-templates',
         ],
       },
       {
-        title: '开发指南',
-        children: [],
+        title: '个人中心',
+        children: [
+          'guide/personal-messages',
+          'guide/personal-settings',
+          'guide/personal-billings',
+          'guide/personal-codes',
+        ],
       },
       {
         title: '其他',
@@ -64,13 +73,10 @@ export default {
   navs: {
     'en-US': [
       null,
-      { title: 'GitHub', path: 'https://github.com/umijs/dumi' },
-      { title: 'Changelog', path: 'https://github.com/umijs/dumi/releases' },
     ],
     'zh-CN': [
       null,
-      { title: 'GitHub', path: 'https://github.com/umijs/dumi' },
-      { title: '更新日志', path: 'https://github.com/umijs/dumi/releases' },
+      { title: '立刻体验！', path: 'https://github.com/ruilisi/cs-server-doc' },
     ],
   },
   extraBabelPlugins: [

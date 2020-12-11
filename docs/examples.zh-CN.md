@@ -2,7 +2,7 @@
 title: 文档示例
 legacy: /example
 nav:
-  order: 3
+  order: 4
   title: 渲染示例
 toc: menu
 ---
