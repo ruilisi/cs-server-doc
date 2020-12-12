@@ -5,7 +5,7 @@ export default {
   mode: 'site',
   favicon: 'https://img.alicdn.com/tfs/TB1YHEpwUT1gK0jSZFhXXaAtVXa-28-27.svg',
   menus: {
-    '/zh-CN/guide': [
+    '/guide': [
       {
         title: '介绍',
         children: ['guide/index', 'guide/getting-started'],
@@ -46,23 +46,42 @@ export default {
         children: [],
       },
     ],
-    '/guide': [
+    '/en-US/guide': [
       {
         title: 'Introducation',
-        children: [],
+        children: ['guide/index', 'guide/getting-started'],
       },
       {
-        title: 'How to write a demo',
-        children: [],
-      },
-      {
-        title: 'Control and generate',
+        title: 'Manager',
         children: [
+          'guide/manager-dashboard',
+          'guide/manager-develop',
+          'guide/manager-agent',
+          'guide/manager-statistic',
+          'guide/manager-usage',
+          'guide/manager-price',
+          'guide/manager-templates',
+
         ],
       },
       {
-        title: 'More usage',
-        children: [],
+        title: 'Agent',
+        children: [
+          'guide/agent-dashboard',
+          'guide/agent-chat',
+          'guide/agent-history',
+          'guide/agent-statistic',
+          'guide/agent-templates',
+        ],
+      },
+      {
+        title: 'Personal',
+        children: [
+          'guide/personal-messages',
+          'guide/personal-settings',
+          'guide/personal-billings',
+          'guide/personal-codes',
+        ],
       },
       {
         title: 'Others',
@@ -73,6 +92,7 @@ export default {
   navs: {
     'en-US': [
       null,
+      { title: 'Buy Now！', path: 'https://github.com/ruilisi/cs-server-doc' },
     ],
     'zh-CN': [
       null,
@@ -98,4 +118,5 @@ export default {
   sitemap: {
     hostname: 'https://d.umijs.org',
   },
+  locales: [['zh-CN', '中文'], ['en-US', 'English'], ['ch-CN-TW','繁体中文']],
 };

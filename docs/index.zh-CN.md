@@ -1,8 +1,8 @@
 ---
-title: Ruilis文档 - 技术·分享·服务
+title: ChatIM文档 - 技术·分享·服务
 order: 10
 hero:
-  title: Ruilis文档
+  title: ChatIM文档
   desc: 技术·分享·服务
   actions:
     - text: 快速上手
