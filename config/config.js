@@ -19,6 +19,7 @@ export default {
           'guide/manager-statistic',
           'guide/manager-usage',
           'guide/manager-price',
+          'guide/manager-history',
           'guide/manager-templates',
         ],
       },
