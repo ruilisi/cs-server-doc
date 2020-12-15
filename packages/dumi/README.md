@@ -24,6 +24,13 @@ $ yarn watch
 $ yarn dev
 ```
 
+## Deploy
+
+```bash
+$ yarn doc:build
+$ yarn deploy
+```
+
 ## Who are using dumi?
 
 <table>
