@@ -4,6 +4,7 @@
   ],
   "private": true,
   "scripts": {
+    "deploy": "gh-pages -d dist",
     "dev": "cross-env BROWSER=none node ./packages/dumi/bin/dumi.js dev",
     "dev:mobile": "cross-env BROWSER=none DUMI_THEME=./packages/theme-mobile node ./packages/dumi/bin/dumi.js dev",
     "watch": "npm run build -- --watch",
@@ -37,6 +38,7 @@
     "cross-env": "^6.0.3",
     "eslint": "^7.0.0",
     "father-build": "^1.14.2",
+    "gh-pages": "^3.1.0",
     "husky": "^4.2.5",
     "lerna": "^3.6.0",
     "lerna-changelog": "^0.8.2",
