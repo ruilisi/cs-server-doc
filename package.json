@@ -8,7 +8,7 @@
     "dev": "cross-env BROWSER=none node ./packages/dumi/bin/dumi.js dev",
     "dev:mobile": "cross-env BROWSER=none DUMI_THEME=./packages/theme-mobile node ./packages/dumi/bin/dumi.js dev",
     "watch": "npm run build -- --watch",
-    "doc:build": "cross-env BROWSER=none node ./packages/dumi/bin/dumi.js build",
+    "doc:build": "cross-env BROWSER=none node ./packages/dumi/bin/dumi.js build && cp CNAME ./dist",
     "build": "father-build",
     "changelog": "lerna-changelog",
     "clean": "lerna clean -y",

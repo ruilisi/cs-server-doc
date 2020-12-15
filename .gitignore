@@ -12,8 +12,7 @@
 /.changelog
 yarn.lock
 package-lock.json
-/dist/*
-!/dist/CNAME
+dist
 /.vscode
 .eslintcache
 .umi
